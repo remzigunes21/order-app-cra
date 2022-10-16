@@ -8,7 +8,7 @@ function Footer() {
           <h3>our branches</h3>
           <a href="#">
             {" "}
-            <i className="fas fa-arrow-right"></i> india{" "}
+            <i className="fas fa-arrow-right"></i> türkiye{" "}
           </a>
           <a href="#">
             {" "}
@@ -20,7 +20,7 @@ function Footer() {
           </a>
           <a href="#">
             {" "}
-            <i className="fas fa-arrow-right"></i> africa{" "}
+            <i className="fas fa-arrow-right"></i> spain{" "}
           </a>
           <a href="#">
             {" "}
@@ -34,46 +34,46 @@ function Footer() {
             {" "}
             <i className="fas fa-arrow-right"></i> home{" "}
           </a>
-          <a href="#">
+          <a href="#about">
             {" "}
             <i className="fas fa-arrow-right"></i> about{" "}
           </a>
-          <a href="#">
+          <a href="#menu">
             {" "}
             <i className="fas fa-arrow-right"></i> menu{" "}
           </a>
-          <a href="#">
+          <a href="#review">
             {" "}
-            <i className="fas fa-arrow-right"></i> review{" "}
+            <i className="fas fa-arrow-right"></i> review
           </a>
-          <a href="#">
+          <a href="#book">
             {" "}
-            <i className="fas fa-arrow-right"></i> book{" "}
-          </a>
-        </div>
-
-        <div className="box">
-          <h3>contact info</h3>
-          <a href="#">
-            {" "}
-            <i className="fas fa-phone"></i> +123-456-7890{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <i className="fas fa-phone"></i> +111-222-3333{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <i className="fas fa-envelope"></i> shaikhanas@gmail.com{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <i className="fas fa-envelope"></i> mumbai, india = 400104{" "}
+            <i className="fas fa-arrow-right"></i> book
           </a>
         </div>
 
         <div className="box">
           <h3>contact info</h3>
+          <a href="#">
+            {" "}
+            <i className="fas fa-phone"></i>555 444 333 12 55{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <i className="fas fa-phone"></i> 555 444 333 12 23{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <i className="fas fa-envelope"></i> remzigunes80@gmail.com{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <i className="fas fa-envelope"></i> istanbul, Türkiye = 3400{" "}
+          </a>
+        </div>
+
+        <div className="box">
+          <h3>social media accounts</h3>
           <a href="#">
             {" "}
             <i className="fab fa-facebook-f"></i> facebook{" "}
@@ -99,7 +99,7 @@ function Footer() {
 
       <div className="credit">
         {" "}
-        creatd by <span>mr. web designer</span> | all rights reserved{" "}
+        creatd by <span style={{fontWeight:"bold"}}>Gunes Design</span> | all rights reserved{" "}
       </div>
     </section>
   );
