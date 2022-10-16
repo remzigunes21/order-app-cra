@@ -2,102 +2,102 @@ import React from "react";
 
 function Footer() {
   return (
-    <section class="footer">
-      <div class="box-container">
-        <div class="box">
+    <section className="footer">
+      <div className="box-container">
+        <div className="box">
           <h3>our branches</h3>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> india{" "}
+            <i className="fas fa-arrow-right"></i> india{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> USA{" "}
+            <i className="fas fa-arrow-right"></i> USA{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> france{" "}
+            <i className="fas fa-arrow-right"></i> france{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> africa{" "}
+            <i className="fas fa-arrow-right"></i> africa{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> Japan{" "}
+            <i className="fas fa-arrow-right"></i> Japan{" "}
           </a>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h3>quick links</h3>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> home{" "}
+            <i className="fas fa-arrow-right"></i> home{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> about{" "}
+            <i className="fas fa-arrow-right"></i> about{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> menu{" "}
+            <i className="fas fa-arrow-right"></i> menu{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> review{" "}
+            <i className="fas fa-arrow-right"></i> review{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fas fa-arrow-right"></i> book{" "}
-          </a>
-        </div>
-
-        <div class="box">
-          <h3>contact info</h3>
-          <a href="#">
-            {" "}
-            <i class="fas fa-phone"></i> +123-456-7890{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <i class="fas fa-phone"></i> +111-222-3333{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <i class="fas fa-envelope"></i> shaikhanas@gmail.com{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <i class="fas fa-envelope"></i> mumbai, india = 400104{" "}
+            <i className="fas fa-arrow-right"></i> book{" "}
           </a>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h3>contact info</h3>
           <a href="#">
             {" "}
-            <i class="fab fa-facebook-f"></i> facebook{" "}
+            <i className="fas fa-phone"></i> +123-456-7890{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fab fa-twitter"></i> twitter{" "}
+            <i className="fas fa-phone"></i> +111-222-3333{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fab fa-twitter"></i> twitter{" "}
+            <i className="fas fa-envelope"></i> shaikhanas@gmail.com{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fab fa-instagram"></i> instagram{" "}
+            <i className="fas fa-envelope"></i> mumbai, india = 400104{" "}
+          </a>
+        </div>
+
+        <div className="box">
+          <h3>contact info</h3>
+          <a href="#">
+            {" "}
+            <i className="fab fa-facebook-f"></i> facebook{" "}
           </a>
           <a href="#">
             {" "}
-            <i class="fab fa-linkedin"></i> linkedin{" "}
+            <i className="fab fa-twitter"></i> twitter{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <i className="fab fa-twitter"></i> twitter{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <i className="fab fa-instagram"></i> instagram{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <i className="fab fa-linkedin"></i> linkedin{" "}
           </a>
         </div>
       </div>
 
-      <div class="credit">
+      <div className="credit">
         {" "}
         creatd by <span>mr. web designer</span> | all rights reserved{" "}
       </div>

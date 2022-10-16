@@ -2,6 +2,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
   font-family: "Roboto", sans-serif;
 }
 
@@ -13,17 +19,7 @@
   --border-hover: 0.2rem dashed var(--main-color);
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: all 0.2s linear;
-}
+
 
 html {
   font-size: 62.5%;
@@ -98,9 +94,15 @@ section {
 }
 
 .header .navbar a {
-  margin: 0 1rem;
-  font-size: 1.7rem;
+  margin: 0 3rem;
+  font-size: 2rem;
   color: var(--main-color);
+
+}
+.header .navbar a:hover{
+
+  font-weight: bold;
+ 
 }
 
 .header .btn {
@@ -508,6 +510,7 @@ section {
     margin: 0;
     padding: 1.5rem 2rem;
   }
+  
 
   .home {
     text-align: center;
